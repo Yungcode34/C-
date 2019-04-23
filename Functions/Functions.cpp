@@ -34,3 +34,20 @@ int pattern(int x,int y)
 
   }
 }
+
+
+int main()
+{
+int width; 
+int rows;
+cout<<"enter how many rows of stars: "<<endl;
+cin>>width;
+cout<<"enter how many stars per row: "<<endl;
+cin>>rows;
+
+
+pattern(width,rows);
+  
+
+
+}

@@ -5,6 +5,7 @@ float sum(float a[], int size);
 //declaring our main function
 int main(){
 using namespace std;
+//declaring variable in our main function
 int size =10,j;
    float b,s, n[size];
    for(j=0; j<size; j++)
@@ -18,6 +19,9 @@ int size =10,j;
    cout << "Average of numbers= " << b << endl;
 return 0;
 }
+/*declaring our average function and give its usage, pass through
+the array and the and integers
+*/
 float average(float a[], int size){
     int i;
     float avg, sum=0;
@@ -28,6 +32,9 @@ float average(float a[], int size){
     avg = sum/size;
     return avg;
 }
+/*declaring our sum statement and give its usage to main, pass
+through the array and integers aswell from function to returning
+*/
 float sum(float a[], int size){
     int i;
     float avg, sum=0;
